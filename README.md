@@ -26,11 +26,13 @@ npm run build
 ```
 
 ## Деплой:
-Из-за смешанного контента при деплое перестают работать запросы на сервер (https у деплоя http у сервера) необходимо добавлять адреса деплоя в исключения браузера
-- https://shortener-taras131.vercel.app/login
-- https://superlative-piroshki-7ba3e6.netlify.app/
+
+- https://shortener-taras131.vercel.app/login](https://6378ef47e090c268e2beeb22--splendid-youtiao-dfb8c1.netlify.app/
 
 
+## Макет:
+
+- https://www.figma.com/file/ja6QtJ9gv2JuxSDIAClL1O/Welbex?node-id=0%3A1
 
 ## Наименование файлов и папок:
 
