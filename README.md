@@ -27,7 +27,7 @@ npm run build
 
 ## Деплой:
 
-- https://shortener-taras131.vercel.app/login](https://6378ef47e090c268e2beeb22--splendid-youtiao-dfb8c1.netlify.app/
+- https://6378ef47e090c268e2beeb22--splendid-youtiao-dfb8c1.netlify.app/
 
 
 ## Макет:
