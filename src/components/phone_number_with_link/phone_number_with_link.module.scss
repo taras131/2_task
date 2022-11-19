@@ -1,0 +1,11 @@
+@use 'src/styles/color-variables' as color-vars;
+
+.wrapper {
+  text-decoration: none;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: color-vars.$primary-text-color;
+}

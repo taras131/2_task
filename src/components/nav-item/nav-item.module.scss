@@ -1,0 +1,18 @@
+@use '../../styles/color-variables' as color-vars;
+
+.wrapper {
+  list-style-type: none;
+
+  .link {
+    text-decoration: none;
+    color: color-vars.$primary-text-color;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .light{
+    font-weight: 400;
+  }
+}

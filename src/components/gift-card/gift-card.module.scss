@@ -1,0 +1,44 @@
+.wrapper {
+  width: 304px;
+  margin-top: 15px;
+
+  h2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: right;
+
+    span {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 22px;
+      text-align: right;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      /* gradient */
+      background: linear-gradient(90deg, #FCB045 36.99%, #FD1D1D 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      text-fill-color: transparent;
+    }
+
+  }
+
+  .gift_section {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+  }
+
+  .button_container {
+    margin-top: 61px;
+    right: 0;
+    display: flex;
+    justify-content: flex-end;
+  }
+}
