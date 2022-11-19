@@ -1,0 +1,25 @@
+.wrapper {
+  text-align: right;
+  @media(max-width: 960px) {
+    text-align: left;
+  }
+
+  .contacts_list {
+    margin-top: 20px;
+    justify-content: flex-end;
+    flex-direction: column;
+    gap: 20px;
+    @media(max-width: 960px) {
+      justify-content: flex-start;
+    }
+    @media(max-width: 750px) {
+      gap: 10px;
+    }
+
+    ul {
+      @media(max-width: 960px) {
+        justify-content: flex-start;
+      }
+    }
+  }
+}

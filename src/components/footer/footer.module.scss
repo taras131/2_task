@@ -6,9 +6,15 @@
   grid-template-columns: 200px 1fr 1fr;
   min-height: 315px;
   position: relative;
+  @media(max-width: 960px) {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    min-height: 559px;
+    background-color: color-vars.$app-background;
+    padding-top: 45px;
+  }
 
   h4 {
-    font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
@@ -19,73 +25,7 @@
   }
 
   ul {
-
     list-style-type: none;
     display: flex;
-  }
-
-  .about {
-    ul {
-      margin-top: 20px;
-      flex-direction: column;
-      row-gap: 10px;
-      column-gap: 52px;
-      flex-wrap: wrap;
-      max-height: 140px;
-    }
-  }
-
-  .menu {
-    margin-left: 98px;
-
-    ul {
-      margin-top: 20px;
-      flex-direction: column;
-      row-gap: 10px;
-      column-gap: 52px;
-      flex-wrap: wrap;
-      max-height: 140px;
-    }
-  }
-
-  .contacts {
-    text-align: right;
-
-    .contacts_list {
-      margin-top: 20px;
-      justify-content: flex-end;
-      flex-direction: column;
-      gap: 20px;
-    }
-  }
-
-  .rights {
-    position: absolute;
-    right: 0;
-    bottom: 20px;
-    font-family: 'Montserrat';
-    text-align: right;
-
-    p {
-
-      font-style: normal;
-      font-weight: 400;
-      font-size: 12px;
-      line-height: 15px;
-      /* identical to box height */
-
-    }
-
-    .link {
-      font-style: normal;
-      font-weight: 400;
-      font-size: 12px;
-      line-height: 15px;
-      /* identical to box height */
-      text-align: right;
-      text-decoration-line: underline;
-      /* light text */
-      color: color-vars.$primary-text-color;
-    }
   }
 }

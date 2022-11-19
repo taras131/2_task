@@ -1,11 +1,10 @@
-import React from 'react';
-import logo from "../../assets/logo/logo_welbex.png"
+import React from "react";
+import logo from "../../assets/logo/logo_welbex.png";
 import {LOGO_DESCRIPTION, ROUTES} from "../../utils/constants";
 import NavItem from "../nav-item/nav-item";
 import styles from "./header.module.scss";
 import PhoneNumberWithLink from "../phone_number_with_link/phone_number_with_link";
 import MessengersSection from "../messengers_section/mesengers_section";
-
 
 const Header = () => {
     const navList = ROUTES.map(item => (<NavItem key={item.name} {...item}/>))

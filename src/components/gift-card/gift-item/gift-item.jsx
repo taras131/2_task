@@ -1,10 +1,11 @@
-import React from 'react';
-import styles from "./gift-item.module.scss"
+import React from "react";
+import styles from "./gift-item.module.scss";
 
-const GiftItem = ({title, description}) => {
+const GiftItem = ({desktopTitle, mobileTitle, description}) => {
     return (
         <div className={styles.wrapper}>
-            <dt>{title}</dt>
+            <dt className={styles.desktop}>{desktopTitle}</dt>
+            <dt className={styles.mobile}>{mobileTitle}</dt>
             <dd>{description}</dd>
         </div>
     );

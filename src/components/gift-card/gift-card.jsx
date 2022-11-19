@@ -1,11 +1,11 @@
-import React from 'react';
-import Button from "../common/button/button";
+import React from "react";
+import Button from "../button/button";
 import GiftItem from "./gift-item/gift-item";
 import {GIFTS} from "../../utils/constants";
 import styles from "./gift-card.module.scss";
 
 const GiftCard = () => {
-    const giftList = GIFTS.map(item => (<GiftItem key = {item.title} {...item}/>))
+    const giftList = GIFTS.map(item => (<GiftItem key = {item.desktopTitle} {...item}/>))
     return (
         <aside className={styles.wrapper}>
             <h2>Вместе с <span>БЕСПЛАТНОЙ</span> <span>КОНСУЛЬТАЦИЕЙ</span> мы дарим:</h2>

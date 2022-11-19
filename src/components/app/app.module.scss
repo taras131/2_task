@@ -1,5 +1,8 @@
 .wrapper {
   padding-top: 46px;
+  @media(max-width: 750px) {
+    padding-top: 0;
+  }
 
   .container {
     max-width: 1140px;

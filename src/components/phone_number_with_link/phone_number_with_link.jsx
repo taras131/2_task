@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import {PHONE_NUMBER} from "../../utils/constants";
 import styles from "./phone_number_with_link.module.scss";
 

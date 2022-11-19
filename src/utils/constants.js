@@ -28,7 +28,7 @@ export const ROUTES = [
         path: "/",
         title: "Сертификаты",
     },
-]
+];
 export const MESSENGER_ROUTES = [
     {
         name: "telegram",
@@ -46,7 +46,7 @@ export const MESSENGER_ROUTES = [
         icon: whatsapp,
     },
 
-]
+];
 export const ABOUT_ROUTES = [
     {
         name: "partner",
@@ -58,7 +58,7 @@ export const ABOUT_ROUTES = [
         path: "/",
         title: "Вакансии",
     },
-]
+];
 export const FOOTER_NAV_ROUTES = [
     {
         name: "cost_calculation",
@@ -110,7 +110,7 @@ export const FOOTER_NAV_ROUTES = [
         path: "/",
         title: "Вопрос / Ответ",
     },
-]
+];
 export const RIGHTS_ROUTE = {
     name: "rights",
     path: "/",
@@ -118,22 +118,26 @@ export const RIGHTS_ROUTE = {
 }
 export const GIFTS = [
     {
-        title: "Виджеты",
+        desktopTitle: "Виджеты",
+        mobileTitle: "30 виджетов",
         description: "30 готовых решений"
     },
     {
-        title: "Dashboard",
+        desktopTitle: "Dashboard",
+        mobileTitle: "Dashboard",
         description: "с показателями вашего бизнеса"
     },
     {
-        title: "Skype Аудит",
+        desktopTitle: "Skype Аудит",
+        mobileTitle: "Skype Аудит",
         description: "отдела продажи CRM системы"
     },
     {
-        title: "35 дней",
+        desktopTitle: "35 дней",
+        mobileTitle: "Месяц аmoCRM",
         description: "использования CRM"
     },
-]
+];
 export const PHONE_NUMBER = "+7 555 555-55-55";
 export const LOGO_DESCRIPTION = "крупный интегратор CRM в Росcии и ещё 8 странах";
 export const COMPANY_ADDRESS = "Москва, Путевой проезд 3с1, к 902";
