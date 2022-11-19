@@ -1,5 +1,5 @@
-import React from 'react';
-import styles from "./messenger-item.module.scss"
+import React from "react";
+import styles from "./messenger-item.module.scss";
 
 const MessengerItem = ({name, icon, path}) => {
     return (

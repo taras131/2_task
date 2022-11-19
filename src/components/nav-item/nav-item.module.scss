@@ -6,13 +6,23 @@
   .link {
     text-decoration: none;
     color: color-vars.$primary-text-color;
-    font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
+    @media(max-width: 750px) {
+      font-size: 14px;
+    }
+    @media(max-width: 360px) {
+      font-size: 12px;
+    }
   }
-  .light{
+
+  .light {
     font-weight: 400;
+  }
+
+  @media(max-width: 360px) {
+    font-size: 14px;
   }
 }

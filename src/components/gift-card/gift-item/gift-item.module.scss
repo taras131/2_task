@@ -1,6 +1,5 @@
 .wrapper {
   dt {
-    font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
@@ -8,15 +7,53 @@
     text-align: right;
     letter-spacing: 0.05em;
     text-transform: uppercase;
+    position: relative;
+    @media(max-width: 750px) {
+      text-align: left;
+      margin-left: 15px;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 400;
+      font-size: 13px;
+      line-height: 16px;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      &::before {
+        content: "";
+        position: absolute;
+        width: 10px;
+        height: 2px;
+        left: -15px;
+        top: 7px;
+        background: linear-gradient(90deg, #FCB045 36.99%, #FD1D1D 100%);
+        z-index: 10;
+      }
+    }
+  }
+
+  .desktop {
+    display: block;
+    @media(max-width: 750px) {
+      display: none;
+    }
+  }
+
+  .mobile {
+    display: none;
+    @media(max-width: 750px) {
+      display: block;
+    }
   }
 
   dd {
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 20px;
     text-align: right;
     margin-top: 6px;
+    @media(max-width: 750px) {
+      display: none;
+    }
   }
 }

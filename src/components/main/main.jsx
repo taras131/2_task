@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import GiftCard from "../gift-card/gift-card";
 import styles from "./main.module.scss";
 

@@ -1,8 +1,8 @@
 import Header from "../header/header";
 import Main from "../main/main";
 import Footer from "../footer/footer";
-import styles from "./app.module.scss"
 import Planets from "../planets/planets";
+import styles from "./app.module.scss";
 
 function App() {
     return (

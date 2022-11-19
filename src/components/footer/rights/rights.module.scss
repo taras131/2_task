@@ -1,0 +1,31 @@
+@use 'src/styles/color-variables' as color-vars;
+
+.wrapper {
+  position: absolute;
+  right: 0;
+  bottom: 20px;
+  font-family: 'Montserrat', sans-serif;
+  text-align: right;
+  @media(max-width: 960px) {
+    text-align: left;
+    left: 0;
+    bottom: -50px;
+  }
+
+  p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: right;
+    text-decoration-line: underline;
+    color: color-vars.$primary-text-color;
+  }
+}

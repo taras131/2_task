@@ -1,0 +1,10 @@
+.wrapper {
+  ul {
+    margin-top: 20px;
+    flex-direction: column;
+    row-gap: 10px;
+    column-gap: 52px;
+    flex-wrap: wrap;
+    max-height: 140px;
+  }
+}
